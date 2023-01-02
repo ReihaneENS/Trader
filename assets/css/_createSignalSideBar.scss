@@ -1,0 +1,66 @@
+.create-signals-side-bar{
+  width: 30%;
+  overflow: auto;
+  padding-bottom: 15px;
+  .inner-content{
+    background: $color-second;
+    border-radius: 5px;
+    margin-top: 0;
+    .currency-type-wrapper {
+      width: 97%;
+      margin: 0 auto;
+
+        .currency-type {
+          background-color: $color-first;
+          border-radius: 2px;
+          font-size: 10px;
+          width: 295px;
+
+          .active {
+            background: $color-second;
+            color: white;
+            border-radius: 2px;
+          }
+
+          button {
+            width: 32%;
+          }
+        }
+    }
+    .main{
+      ul{
+        li{
+          border-bottom: dashed 1px white;
+          .info{
+            font-size: 9px;
+            .top{
+              color: red;
+              p{
+                padding: 2px;
+                border-radius: 2px;
+                &:first-child{
+                  width: 40%;
+                }
+                &:last-child{
+                  width: 57%;
+                }
+              }
+            }
+            .sub{
+              p{
+                padding: 2px;
+                border-radius: 2px;
+                &:first-child{
+                  width: 90%;
+                }
+                &:last-child{
+                  width: 10%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

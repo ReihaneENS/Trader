@@ -1,0 +1,121 @@
+.create-signals-wrapper{
+  .inner-content{
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 15px;
+    .main-content{
+      width: 69%;
+      .notification-wrapper{
+        .inner-content{
+          margin-top: 0;
+          width: 100%;
+        }
+      }
+      .brokers-wrapper{
+        .title{
+          .currency-type-wrapper{
+            height: 62px;
+            border-radius: 5px;
+            .currency-type{
+              background-color: $color-first;
+              border-radius: 2px;
+              font-size: 10px;
+              width: 295px;
+              .active{
+                background: $color-second;
+                color: white;
+                border-radius: 2px;
+              }
+              button{
+                width: 49%;
+              }
+            }
+          }
+          .page-numbers{
+            margin: 0 0;
+            .currency-type{
+              button{
+                width: 23%;
+              }
+            }
+          }
+        }
+        .content{
+          ul{
+            li{
+              width: 23%;
+            }
+          }
+        }
+      }
+      .position-wrapper{
+        width: 100%;
+        h3{
+          width: 20%;
+        }
+        .currency-type-wrapper{
+          height: 62px;
+          border-radius: 5px;
+          width: 80%;
+          .currency-type{
+            background-color: $color-first;
+            border-radius: 2px;
+            font-size: 10px;
+            width: 100%;
+            .active{
+              background: $color-second;
+              color: white;
+              border-radius: 2px;
+            }
+            button{
+              width: 49%;
+            }
+          }
+        }
+        .position{
+          .currency-type{
+            button{
+              width: 16%;
+            }
+          }
+        }
+        .time-frame{
+          .currency-type{
+            button{
+              width: 13%;
+            }
+          }
+        }
+        .position-data{
+          .currency-type{
+            background: none;
+            button{
+              border-radius: 2px;
+              background: $color-first;
+              width: 30%;
+            }
+          }
+        }
+      }
+      .submit-btn{
+
+      }
+      .history-signals-wrapper{
+        .content{
+          font-size: 9px;
+          .value{
+            li{
+              width: 100%;
+            }
+            .country{
+              img:last-child{
+                width: 12px;
+                height: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

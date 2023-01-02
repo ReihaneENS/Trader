@@ -1,0 +1,55 @@
+.header-wrapper{
+  .inner-content{
+    width: 97%;
+    height: 62px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background:$color-second;
+    .account{
+      .user-img{
+        border-radius: 50%;
+        border: solid 1px red;
+      }
+    }
+    .menu-options{
+      li{
+        width: 80px;
+      }
+      .active{
+        background-color: $color-first;
+        border-radius: 3px;
+        height: 24px;
+        color: black;
+      }
+    }
+    .navigation{
+
+    }
+    .right-menu{
+      .flag{
+        img:last-child{
+          border: solid 1px white;
+          border-radius: 50%;
+        }
+      }
+    }
+    @media only screen and (max-width: 1390px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .menu-open{
+        display: inline-block;
+      }
+      .account{
+        display: none;
+      }
+      .menu-options{
+        display: none;
+      }
+      .navigation{
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.premium-account-wrapper{
+  .currency-type-wrapper{
+    width: 97%;
+    height: 62px;
+    background: $color-second;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    .currency-type{
+      background-color: $color-first;
+      border-radius: 2px;
+      font-size: 10px;
+      width: 295px;
+      .active{
+        background: $color-second;
+        color: white;
+        border-radius: 2px;
+      }
+      button{
+        width: 49%;
+      }
+    }
+  }
+
+  .inner-content{
+    width: 97%;
+    margin: 0 auto;
+    .title{
+      .icon{
+        img{
+          border-radius: 50%;
+          border: solid 1px white;
+        }
+      }
+    }
+    .small-box{
+      height: 398px;
+    }
+    .section {
+      background: $color-second;
+      border-radius: 5px;
+      overflow: auto;
+      width: 24%;
+      height: 480px;
+
+      &:first-child {
+        max-height: 55%;
+      }
+
+      &:last-child {
+        max-height: 45%;
+      }
+
+      .title {
+        border-bottom: solid 1px white;
+      }
+
+      .inner {
+        ul {
+          li {
+            border-bottom: dashed 1px white;
+            .user {
+              .user-info {
+                img {
+                  border-radius: 50%;
+                }
+              }
+
+              .currency {
+                border-radius: 1px;
+                background: $color-first;
+                width: 40px;
+                padding: 2px;
+              }
+            }
+            .help{
+              p{
+                background: #FF5454;
+
+              }
+            }
+          }
+        }
+      }
+      .btn{
+        button{
+          background: $color-first;
+        }
+      }
+    }
+    .mobile-view{
+      .slick-slide{
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+      .slick-dots{
+        display: flex!important;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 5px;
+        height: 30px;
+        li{
+          margin-left: 1px;
+          margin-right: 1px;
+          background: $color-first;
+          padding: 1px;
+          border-radius: 2px;
+          height: 100%;
+          display: flex!important;
+          justify-content: center;
+          align-items: center;
+          font-size: 13px;
+          cursor: pointer;
+        }
+        img:last-child{
+          display: none;
+        }
+        .slick-active{
+          img{
+            &:last-child{
+              display: block;
+            }
+            &:first-child{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

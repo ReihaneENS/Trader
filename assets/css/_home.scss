@@ -1,0 +1,201 @@
+.home-wrapper {
+  .inner-content {
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 15px;
+
+    .col {
+      width: 24.2%;
+      .small-box{
+        height: 398px;
+      }
+      .big-box{
+        height: 510px;
+      }
+      .section {
+        background: $color-second;
+        border-radius: 5px;
+        overflow: auto;
+
+        &:first-child {
+          max-height: 55%;
+        }
+
+        &:last-child {
+          max-height: 45%;
+        }
+
+        .title {
+          border-bottom: solid 1px white;
+        }
+
+        .inner {
+          ul {
+            li {
+              border-bottom: dashed 1px white;
+
+              .user {
+                .user-info {
+                  img {
+                    border-radius: 50%;
+                  }
+                }
+
+                .currency {
+                  border-radius: 1px;
+                  background: $color-first;
+                  width: 40px;
+                  padding: 2px;
+                }
+              }
+
+              .country {
+                img {
+                  border: solid 1px white;
+                  border-radius: 50%;
+
+                  &:first-child {
+                    width: 32px !important;
+                    height: 32px !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .insight-sec {
+        .inner {
+          ul {
+            li {
+              background: $color-first;
+              border-radius: 2px;
+
+              .icon {
+                background: $color-second;
+                border-radius: 2px;
+                margin-left: -15px;
+                width: 25px;
+                height: 25px;
+
+                img {
+                  border: solid 1px white;
+                  border-radius: 2px;
+                }
+              }
+
+              .info {
+                font-size: 10px;
+              }
+
+              .detail {
+                color: red;
+                font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+      .active-forex-sec {
+        .inner {
+          ul {
+            li {
+              .middle {
+                font-size: 9px;
+                .main {
+                  border-radius: 2px;
+                  background: $color-first;
+                  color: #2900FF;
+                }
+                .sub {
+                  p {
+                    border-radius: 2px;
+                    background: $color-first;
+                    width: 48%;
+                    &:first-child{
+                      color: #2900FF;
+                    }
+                    &:last-child{
+                      color: red;
+                    }
+                  }
+                }
+              }
+              .part{
+                background: $color-first;
+                font-size: 9px;
+                border-radius: 1px;
+                p{
+                  &:first-child{
+                    border-bottom: solid 1px black;
+                  }
+                  &:last-child{
+                    color: red;
+                  }
+                }
+              }
+              .btn{
+                font-size: 9px;
+                background: $color-first;
+                border-radius: 2px;
+              }
+            }
+          }
+        }
+      }
+      .monetization-sec{
+        .title{
+          .inactive{
+            border: solid 1px red;
+            color: red;
+            font-size: 10px;
+            border-radius: 2px;
+          }
+          .currency-type{
+            background-color: $color-first;
+            border-radius: 2px;
+            font-size: 10px;
+            .active{
+              background: $color-second;
+              color: white;
+              border-radius: 2px;
+            }
+          }
+        }
+      }
+      .suggestion-signals-sec{
+        .title{
+          .currency-type{
+            background-color: $color-first;
+            border-radius: 2px;
+            font-size: 10px;
+            .active{
+              background: $color-second;
+              color: white;
+              border-radius: 2px;
+            }
+          }
+        }
+        .inner{
+          .verified{
+            font-size: 9px;
+          }
+          .btn{
+            background: #FFECEC;
+            font-size: 9px;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 1390px) {
+      .col{
+        width: 49.5%;
+      }
+    }
+    @media only screen and (max-width: 711px) {
+      .col{
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.register-wrapper{
+  .title{
+    width: 97%;
+    margin: 0 auto;
+  }
+  .mode{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .inner-content{
+    width: 97%;
+    margin: 0 auto;
+    min-height: 75vh;
+    .register-box{
+      width: 420px;
+      height: 450px;
+    }
+  }
+}

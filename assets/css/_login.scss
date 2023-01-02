@@ -1,0 +1,28 @@
+.login-wrapper{
+  .title{
+    width: 97%;
+    margin: 0 auto;
+  }
+  .mode{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .inner-content{
+    width: 97%;
+    margin: 0 auto;
+    min-height: 75vh;
+    .login-box{
+      width: 420px;
+      height: 450px;
+      .forget-inner{
+        input{
+          width: 32%;
+          margin: 2px;
+        }
+      }
+    }
+    .forget-box{
+      height: 560px;
+    }
+  }
+}

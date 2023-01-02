@@ -1,0 +1,71 @@
+.wallet-wrapper{
+  .inner-content{
+    .main-content{
+      .box-wrapper{
+        .box-item{
+          width: 32.5%;
+          height: 400px;
+          .inner{
+            overflow: auto;
+            .title{
+              p{
+                &:last-child{
+                  font-size: 8px;
+                }
+              }
+            }
+            .content{
+              .row{
+                .currency{
+                  .text{
+                    span{
+                      font-size: 9px;
+                    }
+                  }
+                }
+                .amount,.btn{
+                  font-size: 9px;
+                }
+              }
+              .account-num{
+                font-size: 8px;
+              }
+            }
+          }
+        }
+      }
+      .history-signals-wrapper{
+        .title{
+          .partition{
+            .currency-type-wrapper{
+              .currency-type{
+                button{
+                  width: 32%;
+                }
+              }
+            }
+            .page-numbers{
+              .currency-type{
+                button{
+                  width: 24%;
+                }
+              }
+            }
+          }
+        }
+        .content{
+          .value{
+            li{
+              .col{
+                width: 10%;
+                p {
+                  overflow-wrap: break-word;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
